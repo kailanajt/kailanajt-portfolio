@@ -1,5 +1,9 @@
+
+
 body {
-    background-color: peachpuff
+    background-color: peachpuff;
+    font: Poiret One;
+
 }
 
 img {
@@ -16,7 +20,13 @@ p,
 h4 {
     text-align: center;
     margin: 0 auto;
-    
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+
 }
 
 h1 {
@@ -31,4 +41,17 @@ a:link, a:visited {
     color: black;
 }
 
+.links {
+    display: inline;
+    padding-inline: 350px;
+}
 
+
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+    font-size: 80px;
+    margin: 35px;
+    margin-left: 50px;
+    
+}
