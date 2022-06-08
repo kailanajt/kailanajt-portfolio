@@ -3,6 +3,7 @@
 body {
     background-color: peachpuff;
     font-family: 'Poiret One';
+    font-weight: bolder;
 
 }
 
@@ -13,6 +14,7 @@ img {
     margin-top: 50px;
     margin-bottom: 20px;
     display: block;
+    border: solid;
 }
 
 h1,
@@ -41,9 +43,16 @@ a:link, a:visited {
     color: black;
 }
 
+a:hover {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
 .links {
     display: inline;
-    padding-inline: 350px;
+    padding-inline: 335px;
+    font-size: 25px;
+    
 }
 
 
@@ -56,5 +65,5 @@ a:link, a:visited {
 }
 
 div {
-    text-align: center
+    text-align: center;
 }
