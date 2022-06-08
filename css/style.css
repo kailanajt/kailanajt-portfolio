@@ -4,7 +4,6 @@ body {
     background-color: peachpuff;
     font-family: 'Poiret One';
     font-weight: bolder;
-
 }
 
 img {
@@ -14,7 +13,7 @@ img {
     margin-top: 50px;
     margin-bottom: 20px;
     display: block;
-    border: solid;
+    border: solid 4px;
 }
 
 h1,
@@ -62,8 +61,11 @@ a:hover {
     font-size: 80px;
     margin: 35px;
     margin-left: 50px;
+    
+    
 }
 
 div {
     text-align: center;
+
 }
