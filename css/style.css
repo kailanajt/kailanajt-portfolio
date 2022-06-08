@@ -1,8 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poller+One&display=swap');
 
 body {
     background-color: peachpuff;
-    font: Poiret One;
+    font-family: 'Poiret One';
 
 }
 
@@ -53,5 +53,8 @@ a:link, a:visited {
     font-size: 80px;
     margin: 35px;
     margin-left: 50px;
-    
+}
+
+div {
+    text-align: center
 }
