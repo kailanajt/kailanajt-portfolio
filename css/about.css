@@ -5,3 +5,24 @@ body {
     font-family: 'Poiret One';
     font-weight: bolder;
 }
+
+#headerone, 
+#headertwo {
+    display: inline;
+    text-decoration: underline;
+}
+#headerone {
+    margin-left: 200px;
+}
+
+#headertwo {
+    margin-left: 900px;
+}
+
+#skills-tab {
+    margin-left: 1300px;
+}
+
+#about-me {
+    font-size: 25px
+}
