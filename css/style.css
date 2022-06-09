@@ -49,10 +49,12 @@ a:hover {
 
 .links {
     display: inline;
-    padding-inline: 320px;
+    padding-inline: 330px;
     font-size: 25px;
-    
+    text-align: center;
+    margin-left: 3px;
 }
+
 
 
 .fa-github,
@@ -67,5 +69,4 @@ a:hover {
 
 div {
     text-align: center;
-
 }
