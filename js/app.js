@@ -1,12 +1,10 @@
-// let projects = [
-//     {
-//     title: 'Tic Tac Toe',
-//     deployment: '',
-//     image: '', 
-//     github: '',
-//     description: '',
-// }
-//     ]
+//variables
 
 
+//cached elems
 
+
+//event listeners
+
+
+//functions

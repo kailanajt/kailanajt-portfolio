@@ -6,16 +6,16 @@ body {
     font-weight: bolder;
 }
 
-#headerone, 
-#headertwo {
+#headone, 
+#headtwo {
     display: inline;
     text-decoration: underline;
 }
-#headerone {
+#headone {
     margin-left: 200px;
 }
 
-#headertwo {
+#headtwo {
     margin-left: 900px;
 }
 
@@ -23,6 +23,8 @@ body {
     margin-left: 1300px;
 }
 
-#about-me {
-    font-size: 25px
+p {
+    font-size: 25px;
 }
+
+

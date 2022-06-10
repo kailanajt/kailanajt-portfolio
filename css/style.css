@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poller+One&display=swap');
 
 body {
-    background-color: peachpuff;
+    --text-light: rgba(255,218,185);
+    --secondary-dark: rgba(255,218,185);
+    --dark-mode: rgba(68,92,109);
+    background-color: var(--text-light);
     font-family: 'Poiret One';
     font-weight: bolder;
 }
+
 
 img {
     border-radius: 50%;
@@ -52,7 +56,6 @@ a:hover {
     padding-inline: 100px;
     font-size: 25px;
     text-align: center;
-    
 }
 
 
@@ -69,3 +72,16 @@ a:hover {
 div {
     text-align: center;
 }
+
+.sub-links {
+    width: 100%
+}
+
+
+@media only screen and (min-width: 768px) {
+    body {
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 50px auto 30px;
+      
+    }
+  }
