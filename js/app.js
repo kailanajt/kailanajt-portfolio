@@ -1,25 +1,26 @@
 //variables
 
-
 //cached elems
-// const hooray = document.getElementById('btn')
-// const toggleBtn = document.getElementById('toggleBtn')
-
+const hooray = document.getElementById('btn')
+const toggleBtn = document.getElementById('toggleBtn')
+const body = document.querySelector('body')
 //event listeners
+toggleBtn.addEventListener('click', toggleDark)
 
 //functions
 
-// function toggleBtn() {
-//     body.className = body.className === "dark" ? "" : "dark"
-//   }
+function toggleDark() {
+    body.className = body.className === "dark" ? "" : "dark"
+  }
 
-//   function toggleDark() {
-//     if (
-//       window.matchMedia("(prefers-color-scheme:dark)").matches &&
-//       body.className !== "dark"
-//     ) {
-//       toggleDark()
-//     }
-//   }
+  function checkDarkPref() {
+    if (
+      window.matchMedia("(prefers-color-scheme:dark)").matches &&
+      body.className !== "dark"
+    ) {
+      toggleDark()
+    }
+  }
 
-// toggleDark()
+checkDarkPref()
+
