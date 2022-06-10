@@ -6,25 +6,45 @@ body {
     font-weight: bolder;
 }
 
-#headone, 
-#headtwo {
-    display: inline;
+#headone {
+    font-size: 50px;
+    text-align: center;
     text-decoration: underline;
 }
-#headone {
-    margin-left: 200px;
-}
 
 #headtwo {
-    margin-left: 900px;
-}
-
-#skills-tab {
-    margin-left: 1300px;
+    font-size: 50px;
+text-align: center;
+text-decoration: underline;
 }
 
 p {
+    text-align: center;
     font-size: 25px;
 }
 
+.fa-html5,
+.fa-js,
+.fa-css3-alt {
+    font-size: 80px;
+}
 
+div {
+    display: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.headthrees {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+section {
+    background-color: beige;
+    margin: 25px;
+}
