@@ -5,7 +5,6 @@ const toggleBtn = document.getElementById('toggleBtn')
 const body = document.querySelector('body')
 //event listeners
 toggleBtn.addEventListener('click', toggleDark)
-hooray.addEventListener('click', confetti)
 
 //functions
 

@@ -82,8 +82,14 @@ div {
     color: black;
   }
 
-  /* @media only screen and (min-width: 350px) and (max-width: 1366px) {
-    body {
-        background-color: lightblue;
-    }
+  #resume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: dimgrey;
+
+  }
+
+  /* @media only screen and (min-width: 358px) {
+   
   } */
