@@ -1,5 +1,8 @@
 import {
     myProjects
-} from './projects.js'
-console.log(myProjects)
+} from '../js/projects.js'
+// console.log(myProjects)
+
+let myProjects = projects
+
 

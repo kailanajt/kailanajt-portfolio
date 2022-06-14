@@ -78,6 +78,7 @@ div {
 }
 
 
+
 @media only screen and (min-width: 768px) {
     body {
       grid-template-columns: 1fr 2fr;
@@ -85,3 +86,6 @@ div {
       
     }
   }
+
+
+  
