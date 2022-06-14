@@ -14,8 +14,8 @@ body {
 
 #headtwo {
     font-size: 50px;
-text-align: center;
-text-decoration: underline;
+    text-align: center;
+    text-decoration: underline;
 }
 
 p {
@@ -25,12 +25,18 @@ p {
 
 .fa-html5,
 .fa-js,
-.fa-css3-alt {
+.fa-css3-alt,
+.fa-react {
     font-size: 80px;
+    display: flex;
+    justify-content: center;
+    /* text-align: inline-block; */
 }
 
 div {
-    display: center;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: inline-block;
 }
 
 #title {
@@ -39,7 +45,16 @@ div {
     text-decoration: underline;
 }
 
-section {
-    background-color: beige;
-    margin: 25px;
-}
+button {
+    display: center;
+  }
+
+#resume {
+    background-color: peachpuff;
+    border-radius: 50%;
+    font-family: 'Poiret One';
+    font-size: 50px;
+    border: 2px solid peachpuff
+  }
+
+

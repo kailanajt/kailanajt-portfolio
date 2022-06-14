@@ -1,16 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poller+One&display=swap');
 
 body {
-    background-color: peachpuff;
-    font-family: 'Poiret One';
-    font-weight: bolder;
+  background-color: peachpuff;
+  font-family: 'Poiret One';
+  font-weight: bolder;
 }
 
 h1 {
-    text-align: center;
-    font-size: 50px;
+  text-align: center;
+  font-size: 50px;
 }
 
-.projectone{
-  font-size: 45px;
+div {
+  background-color: lightcoral;
+  margin: 30px;
+  padding-left: 25px;
+  margin-right: 410px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 2px solid  ;
+}
+
+#image {
+  border: 2px solid;
+  text-align: center;
+}
+
+h3 {
+  margin-left: 45px;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+a:hover {
+  color:antiquewhite;
+  text-decoration: none;
+}
+
+.links {
+  text-decoration: none;
+  padding-inline: .5px;
 }
