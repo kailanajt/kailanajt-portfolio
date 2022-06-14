@@ -88,4 +88,9 @@ div {
   }
 
 
-  
+  .btn {
+    background-color: peachpuff;
+    border: solid black;
+    color: black;
+    text-align: inline;
+  }

@@ -1,7 +1,6 @@
 //variables
 
 //cached elems
-const hooray = document.getElementById('btn')
 const toggleBtn = document.getElementById('toggleBtn')
 const body = document.querySelector('body')
 //event listeners
