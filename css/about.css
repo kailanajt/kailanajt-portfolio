@@ -47,7 +47,7 @@ div {
 
 button {
     display: center;
-  }
+}
 
 #resume {
     background-color: peachpuff;
@@ -55,6 +55,10 @@ button {
     font-family: 'Poiret One';
     font-size: 50px;
     border: 2px solid peachpuff
-  }
+}
 
-
+@media only screen and (max-width: 768px)  {
+    body {
+        border: 10px solid peachpuff;
+    }
+}
