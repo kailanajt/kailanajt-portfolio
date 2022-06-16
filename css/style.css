@@ -62,10 +62,10 @@ a:link, a:visited {
     color: black;
 }
 
-/* a:hover {
+a:hover {
     color:antiquewhite;
     text-decoration: none;
-} */
+}
 
 .links {
     display: inline;
