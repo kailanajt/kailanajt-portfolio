@@ -1,18 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poller+One&display=swap');
 
 body {
-    --text-light: rgba(255,218,185);
-    --secondary-dark: rgba(255,218,185);
+    --body-bg: rgba(255,218,185);
     --dark-mode: rgba(68,92,109);
-    background-color: var(--text-light);
+    background-color: var(--body-bg);
     font-family: 'Poiret One';
     font-weight: bolder;
+}
+
+body.dark {
+    --body-bg: rgba(68,92,109);
+    --btn-text-color: #eaeaea;
+    --header-bg: #005e9d;
+    --header-text-color: peachpuff;
+    --inverted-btn-text-color: #2a2a2a;
+    --light-dark-btn-content: "Light Mode";
+    background-color: var(--body-bg);
+}
+
+
+#toggleBtn::after{
+    content: var(--light-dark-btn-content);
 }
 
 nav {
     display: inline;
 }
-
 
 img {
     border-radius: 50%;
@@ -72,8 +85,10 @@ a:hover {
 }
 
 div {
-    text-align: center
+    text-align: center;
 }
+
+
 
 .sub-links {
     width: 100%
@@ -86,6 +101,9 @@ div {
     color: black;
 }
 
+button:hover {
+    color: peachpuff;
+}
 
 #resume {
     display: flex;
@@ -97,6 +115,22 @@ div {
 
 @media only screen and (max-width: 768px)  {
     body {
+        --body-bg: rgba(255,218,185);
+        --dark-mode: rgba(68,92,109);
+        background-color: var(--body-bg);
+        font-family: 'Poiret One';
+        font-weight: bolder;
         border: 10px solid peachpuff;
+    }
+
+    body.dark {
+        --body-bg: rgba(68,92,109);
+        --btn-text-color: #eaeaea;
+        --header-bg: #005e9d;
+        --header-text-color: peachpuff;
+        --inverted-btn-text-color: #2a2a2a;
+        --light-dark-btn-content: "Light Mode";
+        background-color: var(--body-bg);
+        border: var(--body-bg)
     }
 }
