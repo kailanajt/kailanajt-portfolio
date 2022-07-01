@@ -12,13 +12,13 @@ h1 {
   
 }
 
-div {
+.project {
   background-color: lightcoral;
-  margin: 30px;
+  /* margin: 30px;
   margin-bottom: 50px;
   padding-left: 25px;
   border: 2px solid;
-  position: absolute;
+  position: absolute; */
 }
 
 #image {
